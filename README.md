@@ -1,2 +1,2 @@
 # brute
-A utilities i use for problem solving
+Utilities i use for problem solving
