@@ -25,6 +25,14 @@ func YellowBG(s string) string {
 	return fmt.Sprintf("\u001b[43m%s\u001b[0m", s)
 }
 
+func BlueBG(s string) string {
+	return fmt.Sprintf("\u001b[44m%s\u001b[0m", s)
+}
+
+func PurpleBG(s string) string {
+	return fmt.Sprintf("\u001b[45m%s\u001b[0m", s)
+}
+
 func WhiteBG(s string) string {
 	return fmt.Sprintf("\u001b[47m%s\u001b[0m", s)
 }
